@@ -5,42 +5,255 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Title Page</title>
+    <title>Chittor College of Airport & Hotel Management</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/css/lightbox.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-default" role="navigation">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">CCA</a>
+    <div class="wrapper" id="home">
+        <header id="header">
+            <img src="/images/logo_cca.png" alt="CCA - Chittor College of Airport & Hotel Management " class="img-logo"> 
+            <a href="/" id="logo">CCA</a>
+            <ul id="menu">
+                <li><a href="#home"><span>Home</span></a></li>
+                <li><a href="#about"><span>About</span></a></li>
+                <li><a href="#courses"><span>Courses</span></a></li>
+                <li><a href="#gallery"><span>Gallery</span></a></li>
+                <li><a href="#contact"><span>Contact</span></a></li>
+            </ul>
+        </header>
+        <section  class="slider">
+            <div id="slider-gallery" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                </ol>
+                <div class="carousel-inner">
                 </div>
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse navbar-ex1-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">Abouts us</a></li>
-                        <li><a href="#courses">Courses</a></li>
-                        <li><a href="#gallery">Gallery</a></li>
-                        <li><a href="#contat">Contact</a></li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
+                <a class="left carousel-control" href="#slider-gallery" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <a class="right carousel-control" href="#slider-gallery" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
-        </nav>
-        <div class="container-fluid"></div>
-    </header>
+        </section>
+        <section class="document" id="about">
+            <h1>Welcome to CCA</h1>
+            <hr class="brace">
+            <div class="document__content">
+                <p> The world of education is a highly interesting vast expanse to be explored. Its span is getting even wider with ample opportunities opening up for students. </p>
+                <p>I warmly welcome you to CCA whose mission is to cull students like you into IT professionals by imparting expert academic knowledge blended with practical training provided in the environment of the best of infrastructure and facilities.</p>
+                <p>CCA opportunities are sparse. We have started this Institutions for IT for students like you who aspire to make a promising career in this field. I trust that you, my dear friends, will put in your utmost to master these skills and contribute your bit to society by helping the healthcare industry to give people a healthy, quality life.</p>
+                <p>No company is ready to invest time to train a single graduate and make him suitable for a job. The onus is on the student to enhance his employability. In pursuance of the dreams only a few are aware of the challenges. Our curricula are designed not only to bring the students face to face with these challenges, but also to overcome them. Now, one needs industry specific knowledge and skill to make the cut. At CCA we help students develop these skills and help them to enhance their employability.
+                </p>
+            </div>
+        </section>
+        <img src="/images/courses.jpg" alt="CCA courses" class="img-courses">
+        <section class="document courses" id="courses">
+            <h1>Courses</h1>
+            <hr class="brace">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <div class="panel-title">Management</div>
+                            </div>
+                            <div class="panel-body">
+                                <!-- table.table.table-bordered.table-stripped>(thead>tr>td{Course}+td{Duration})+tbody>tr*5>td{Course}+td{2 years} -->
+                                <table class="table table-bordered table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Course</td>
+                                                <th>Duration</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Diploma in Airport and Hotel Management</td>
+                                            <td>2 years</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Diploma in Hotel Management</td>
+                                            <td>2 years</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Diploma in International Airlines and Travel Management</td>
+                                            <td>1 year</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Diploma in Hotel Management</td>
+                                            <td>1 year</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Spoken English</td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                <div class="panel-title">IT Courses</div>
+                            </div>
+                            <div class="panel-body">
+                                <!-- table.table.table-bordered.table-stripped>(thead>tr>td{Course}+td{Duration})+tbody>tr*5>td{Course}+td{2 years} -->
+                                <table class="table table-bordered table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Course</td>
+                                                <th>Duration</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Master Diploma in Computer Application</td>
+                                            <td>1 year</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Master Diploma in Information Technology</td>
+                                            <td>1 year</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Honour’s Diploma in Computer Application</td>
+                                            <td>1 year</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Diploma in Software Engineering</td>
+                                            <td>1 year</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Honour’s Diploma in Computer Hardware & Network Engineering</td>
+                                            <td>6 Months</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Post Graduate Diploma in Computer Application</td>
+                                            <td>1 year</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Diploma in Computer Teacher Training</td>
+                                            <td>1 year</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Diploma in Multimedia and Animation Technology</td>
+                                            <td>1 year</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Advanced Diploma in Multimedia Programming</td>
+                                            <td>6 Months</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Diploma in Computer Teacher Training</td>
+                                            <td>1 year</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Diploma in Computer Application</td>
+                                            <td>6 Months</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Diploma in Android Application Development</td>
+                                            <td>3 Month</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="document" id="gallery">
+            <h1>Gallery</h1>
+            <hr class="brace">
+            <div class="grid">
+            </div>
+        </div>
+        <div id="contact">
+            <div class="jumbotron jumbotron-sm">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-12">
+                            <h1 class="h1">
+                    Contact us <small>Feel free to contact us</small></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="well well-sm">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="name">
+                                                Name</label>
+                                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email">
+                                                Email Address</label>
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                                </span>
+                                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" />
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="subject">
+                                                Subject</label>
+                                            <select id="subject" name="subject" class="form-control" required="required">
+                                                <option value="na" selected="">Choose One:</option>
+                                                <option value="inquiry">Inquiry</option>
+                                                <option value="suggestions">Suggestions</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="name">
+                                                Message</label>
+                                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required" placeholder="Message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                                            Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <form>
+                            <legend><span class="glyphicon glyphicon-globe"></span> Our office</legend>
+                            <address>
+                                <strong>Chittor College of Airport & </strong><br>
+                                <strong>Hotel Management</strong>
+                                <br> #2-1490, Officer Lane, 
+                                <br> Chittoor, Andhra Pradesh, India
+                                <br>
+                                <abbr title="Phone">
+                                    P:</abbr>
+                                (+91) 939 8303 143
+                            </address>
+                            <address>
+                                <strong>C.R.Sateesh</strong>
+                                <br> <small>Director</small>
+                                <!-- <a href="mailto:#">first.last@example.com</a> -->
+                            </address>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- jQuery -->
     <script src="//code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/js/lightbox-plus-jquery.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
     <!-- Bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <script src="scripts.js"></script>
